@@ -45,8 +45,8 @@ http-get
 }
 http-stager
 {
-    set uri_x86 "/vue.min.js";
-    set uri_x64 "/bootstrap-2.min.js";
+    set uri_x86 "/api/vue.min.js";
+    set uri_x64 "/api/bootstrap-2.min.js";
 }
 http-post {
     set uri "/api/postit";
