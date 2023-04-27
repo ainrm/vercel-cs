@@ -10,4 +10,4 @@
 
 ### 0x02 部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/ainrm/vercel-cs&env=C2&repository-name=vercel-c2)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/ainrm/vercel-cs&env=C2&repository-name=vercel-cs)
