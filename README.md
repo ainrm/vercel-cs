@@ -8,6 +8,6 @@
 
 ![ainrm@20230426182017](./tu/ainrm@20230426182017.webp)
 
-### 0x02 使用
+### 0x02 部署
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/ainrm/vercel-cs&env=C2&repository-name=vercel-c2)
