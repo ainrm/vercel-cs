@@ -10,4 +10,4 @@
 
 ### 0x02 使用
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ainrm/vercel-c2&demo-title=vercel-c2&demo-description=cobalt%20strike%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%9A%90%E8%97%8F&demo-url=https://github.com/ainrm/vercel-c2&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png&repository-name=vercel-c2&project-name=vercel-c2&env=C2)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/ainrm/vercel-cs&env=C2&repository-name=vercel-c2)
