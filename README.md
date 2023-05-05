@@ -11,3 +11,26 @@
 ### 0x02 部署
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https://github.com/ainrm/vercel-cs&env=C2&repository-name=vercel-cs)
+
+
+1. 创建vercel项目
+
+![ainrm@20230505205915](./tu/ainrm@20230505205915.webp)
+
+2. 绑定域名
+
+![ainrm@20230505210549](./tu/ainrm@20230505210549.webp)
+
+### 0x03 测试
+
+1. 生成`https beacon`马
+
+![ainrm@20230505211028](./tu/ainrm@20230505211028.webp)
+
+2. 上线
+
+![ainrm@20230505211421](./tu/ainrm@20230505211421.webp)
+
+3. 执行命令
+
+![ainrm@20230505211435](./tu/ainrm@20230505211435.webp)
