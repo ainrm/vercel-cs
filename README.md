@@ -4,7 +4,7 @@
 
 ### 0x01 简介
 
-这是一个cs后台隐藏项目，由[官方模版](https://github.com/vercel/examples/tree/main/python/flask)改编而来，原理类似云函数，设置cs的上线地址为一个指定域名，该域名解析后的ip归属于`vercel`，从而实现真实ip隐藏
+这是一个cs后台隐藏项目，由[vercel官方模版](https://github.com/vercel/examples/tree/main/python/flask)改编而来，原理类似云函数，设置cs的上线地址为一个指定域名，该域名解析后的ip归属于`vercel`，从而实现真实ip隐藏
 
 ![ainrm@20230426182017](./tu/ainrm@20230426182017.webp)
 
@@ -27,10 +27,10 @@
 
 ![ainrm@20230505211028](./tu/ainrm@20230505211028.webp)
 
-2. dns请求，解析出cs服务器ip为`76.76.21.9`
+2. dns请求，解析出cs服务器ip为[76.76.21.9](https://x.threatbook.com/v5/ip/76.76.21.9)
 
 ![ainrm@20230505211421](./tu/ainrm@20230505211421.webp)
 
-3. 执行命令
+3. 上线，执行命令
 
 ![ainrm@20230505211435](./tu/ainrm@20230505211435.webp)
